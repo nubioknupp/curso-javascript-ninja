@@ -143,7 +143,7 @@ inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
 pessoa.andando; // true
 
-/*
+git
 Se a pessoa ainda está andando, faça-a parar.
 */
 if(pessoa.andando) pessoa.parar();
@@ -179,8 +179,8 @@ correta, de acordo com os dados inseridos no objeto.
 */
 pessoa.apresentacao = function() {
   var nome = "o " + pessoa.nomeCompleto();
-  va idade = pessoa.idade + (pessoa.idade > 1 ? " anos" : " ano");
-  va caminhou = pessoa.caminhouQuantosMetros + (pessoa.caminhouQuantosMetros > 1 ? " metros" : " metro");
+  var idade = pessoa.idade + (pessoa.idade > 1 ? " anos" : " ano");
+  var caminhou = pessoa.caminhouQuantosMetros + (pessoa.caminhouQuantosMetros > 1 ? " metros" : " metro");
 
   if(pessoa.sexo === "Feminino" ) nome = "a " + pessoa.nomeCompleto();
 
